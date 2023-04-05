@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 60px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px grey;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 40px;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: #F0C14B;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+nav img {
+    height: 110px;
+    width: 85px;
+}
+
+.profile-icon {
+    height: 25px;
+    width: 28px;
+}
+
+.hero-img {
+    height: 1250px;
+    width: 100%;
+}
+
+.course-logo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.course-logo {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.technology {
+    padding: 100px 0px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg);
+}
+
+.technology h1{
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.technology button {
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.placement {
+    background-color: #F5F7F9;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.placement h1{
+    margin-bottom: 20px;
+    color: #0075BE;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placement img{
+    height: 150px;
+    width: 200px;
+    margin: 40px;
+}
+
+.placed-student {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.placed-student h1{
+    margin-bottom: 30px;
+    color: #0075BE;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placed-student img{
+    margin: 15px;
+}
+
+.features {
+    background-color: #F5F7F9;
+    padding: 50px 0px;
+}
+
+.features h1{
+    margin-bottom: 60px;
+    color: #0075BE;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features .division {
+    display: flex;
+    justify-content: center;
+}
+
+.features .division img{
+    height: 400px;
+    width: 800px;
+    margin-right: 120px;
+}
+
+.features .division li{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 30px;
+    margin-right: 175px;
+    list-style: circle;
+}
+
+.course {
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.course-heading{
+    font-size: 50px;
+    color: #0075BE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.course-card{
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    background-color: #F5F7F9;
+    padding: 35px;
+    width: 15%;
+    border-radius: 15px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card img{
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h1{
+    color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-button .btn{
+    border: none;
+    color: black;
+}
+
+.card-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p{
+    margin: 25px 0px;
+    color: #333333;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.footer .first-footer {
+    margin: 70px;
+    color: white;
+}
+
+.footer .first-footer h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.first-footer p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon img {
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+
+.sub-footer {
+    justify-content: space-between;
+    display: flex;
+    background-color: #333333;
+    color: white;
+    margin-top: 1px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sub-footer p{
+    margin: 40px 335px;
+}
+
+
+
+
+
